@@ -1,6 +1,9 @@
+body {
+    background-color: #1b2838;
+}
 .navbar-inverse {
     border-color: transparent;
-    background-color: #181818;
+    background-color: #131c27;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -184,40 +187,46 @@ section {
     margin: 40px 0 20px 0;
 }
 
-.new-films-item:hover .new-films-item__label,
+.product-item:hover .product-item__label,
 .top-week-item:hover .top-week-item__label {
     color: white;
 }
 
-.new-films .row,
+.product .row,
 .top-week .row {
-    margin-right: -7.5px;
-    margin-left: -7.5px;
+    margin-right: -5px;
+    margin-left: -5px;
 }
 
-.new-films .thumbnail,
+.product .thumbnail,
 .top-week .thumbnail {
+    background: transparent;
     margin-bottom: 15px;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 0 1px rgba(255,255,255,0.25) inset;
+    -webkit-transition: box-shadow 350ms;
+    -o-transition: box-shadow 350ms;
+    transition: box-shadow 350ms;
 }
 
-.new-films-item,
+.product-item,
 .top-week-item {
     padding-right: 7.5px;
     padding-left: 7.5px;
 }
 
-.new-films-item:hover .thumbnail,
+.product-item:hover .thumbnail,
 .top-week-item:hover .thumbnail {
-    border-color: #df8a13;
-    background-color: #df8a13;
+    box-shadow: 0 0 4px #4d729f;
 }
 
-.new-films-item__image,
+.product-item__image,
 .top-week-item__image {
     width: 100%;
 }
 
-.new-films-item__label,
+.product-item__label,
 .top-week-item__label {
     display: block;
     overflow: hidden;
@@ -228,14 +237,14 @@ section {
     -o-text-overflow: ellipsis;
 }
 
-.new-films-item .thumbnail,
+.product-item .thumbnail,
 .top-week-item .thumbnail {
     -webkit-transition: background-color 0.25s ease;
          -o-transition: background-color 0.25s ease;
             transition: background-color 0.25s ease;
 }
 
-.new-films-item .caption,
+.product-item .caption,
 .top-week-item .caption {
     text-align: center;
 }
@@ -443,9 +452,10 @@ section {
 .footer {
     margin-top: 60px;
     padding-top: 40px;
-
-    color: #fcfcfc;
-    background-color: #222222;
+    background-color: #131c27;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid #323e4c \9;
+    color: #7a828b;
 }
 
 .footer ul {
@@ -460,16 +470,6 @@ section {
 
 .footer a:hover {
     color: white;
-}
-
-.footer-fifth {
-    margin: 20px 0;
-
-    text-align: center;
-}
-
-.footer-fifth a {
-    color: #fcfcfc;
 }
 
 @media (min-width: 768px) {
