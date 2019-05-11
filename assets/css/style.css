@@ -1,6 +1,109 @@
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 body {
     background-color: #1b2838;
 }
+.wrapper {
+    background: #1b2838;
+    position: relative;
+    left: 0;
+    z-index: 99;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    overflow: visible;
+}
+.wrap-topbar {
+    background: #000000;
+    color: #777777;
+    height: 32px;
+    line-height: 32px;
+    font-size: 11px;
+    font-weight: 700;
+}
+#header {
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid #323e4c;
+}
+.navbar-default {
+    background: transparent;
+    margin-bottom: 0;
+    margin-top: -32px;
+    border-radius: 0;
+    border: 0;
+}
+#navbar-top {
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1);
+    padding-left: 0;
+    padding-right: 0;
+    border-color: rgba(255,255,255,0.1);
+    background-color: #131c27;
+    border-color: #323e4c \9;
+    border-radius: 2px;
+}
+.wrap-bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+     margin-right: 0;
+     margin-left: 0;
+}
+.wrap-bg-container {
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+.img-header-top {
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 142px;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+.img-header {
+    background-size: cover;
+    background-position: top center;
+    min-height: 870px;
+}
+.img-header-bottom {
+    background-position: bottom center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+.img-header-bottom-mask {
+    background: #1b2838;
+    background: -webkit-linear-gradient(transparent,#1b2838);
+    background: -o-linear-gradient(transparent,#1b2838);
+    background: -moz-linear-gradient(transparent,#1b2838);
+    background: linear-gradient(transparent,#1b2838);
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}
+.main-body {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 400px;
+}
+
+
+
+
+
 .navbar-inverse {
     border-color: transparent;
     background-color: #131c27;
@@ -152,12 +255,9 @@ section {
 }
 
 .header-logo {
-    padding: 100px 20px;
-
+    padding: 150px 20px;
     text-align: center;
-
     background-color: #222222;
-    background-image: url(../img/header-bg.jpg);
     background-position: center center;
     background-size: cover;
 }

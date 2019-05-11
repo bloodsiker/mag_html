@@ -17,510 +17,583 @@
   <![endif]-->
 </head>
 <body>
+<div class="wrapper">
+  <div class="wrap-topbar">
+    <div class="container">
+      <div class="row">
+        <div class="topbar-left col-xs-8 col-sm-6">
 
-  <header class="header container-fluid">
-    <div class="header-logo row">
-      <div class="container">
-        <strong class="header-logo__title">КиноЗал</strong>
-        <span class="header-logo__description">Найди свое кино</span>
-      </div>
-    </div>
 
-    <div class="header-menu row">
-      <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-top" aria-expanded="false">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
+          <div class="custom">
+            <p>Welcome to the JA Play Store</p></div>
 
-          <div class="collapse navbar-collapse" id="navbar-top">
-            <ul class="nav navbar-nav navbar-left">
-              <li class="active"><a href="index.html">Главная</a></li>
-              <li><a href="page.html">Фильмы</a></li>
-              <li><a href="index.html#">Сериалы</a></li>
-              <li><a href="index.html#">Контакты</a></li>
-            </ul>
+        </div>
+        <div class="topbar-right pull-right col-xs-4 col-sm-6">
 
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html#">Новинки</a></li>
-              <li><a href="index.html#">Рейтинг</a></li>
-              <li><a href="index.html#">Раздачи</a></li>
-            </ul>
+          <div class="languageswitcherload">
+            <div class="mod-languages">
+
+            </div>
+
           </div>
         </div>
-      </nav>
+      </div>
+    </div>
+  </div>
+
+  <header id="header" class="header ">
+    <div class="container">
+      <div class="row">
+        <!-- LOGO -->
+        <div class="col-xs-12 col-sm-4 logo">
+          <div class="logo-image">
+            <a href="/" title="">
+              <img class="logo-img" src="assets/img/logo.png" alt="JoomlArt Demo Site">
+              <span></span>
+            </a>
+            <small class="site-slogan"></small>
+          </div>
+        </div>
+        <!-- //LOGO -->
+
+        <div class="head-right col-xs-12 col-sm-8">
+          <!-- HEAD CART -->
+          <div class="head-cart hidden" >
+            <button aria-expanded="false" data-toggle="dropdown" class="btn btn-cart dropdown-toggle" type="button" id="head-cart-dropdown">
+              <i class="fa fa-shopping-cart"></i>
+              <span class="total-product">0</span>
+            </button>
+          </div>
+          <!-- //HEAD CART -->
+
+          <!-- HEAD SEARCH -->
+          <div class="head-search hidden">
+            <button class="btn btn-search"><i class="fa fa-search"></i></button>
+            <div class="search">
+              <form action="/index.php/en/" method="post" class="form-inline form-search">
+                <label for="mod-search-searchword" class="element-invisible">Search ...</label> <input name="searchword" id="mod-search-searchword" maxlength="200" class="form-control search-query" type="search" placeholder="Search ...">		<input type="hidden" name="task" value="search">
+                <input type="hidden" name="option" value="com_search">
+                <input type="hidden" name="Itemid" value="101">
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
     </div>
   </header>
 
-  <div class="container">
-    <div class="row">
-
-      <main class="main col-lg-9 col-lg-push-3 col-md-8 col-md-push-4">
-
-        <div class="panel-search panel panel-info hidden-lg hidden-md">
-          <form action="http://courses.fomenko.top/m2t1/test">
-            <div class="input-group">
-              <input type="search" class="form-control input-lg" placeholder="Поиск по сайту">
-              <div class="input-group-btn">
-                <button class="btn btn-default btn-lg" type="submit">
-                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                </button>
-              </div>
-            </div>
-          </form>
+  <div class="header-menu">
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-top" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
 
-        <section class="product">
-          <h1>Новые фильмы</h1>
-          <div class="row">
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1266931.jpg" alt="Стражи галактики" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Стражи галактики</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1289488.jpg" alt="Занесло" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Занесло</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1341151.jpg" alt="Из машины" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Из машины</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1381061.jpg" alt="Выхода нет" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Выхода нет</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1393263.jpg" alt="Человек муравей" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Человек муравей</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1263242.jpg" alt="Люси" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Люси</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1401663.jpg" alt="Марсианин" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Марсианин</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1415999.jpg" alt="Дочь Бога" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Дочь Бога</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1423264.jpg" alt="Месть от кутюр" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Месть от кутюр</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1441076.jpg" alt="5ять" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">5ять</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1453229.jpg" alt="Люди Икс" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Люди Икс</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="product-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1455536.jpg" alt="Иллюзия обмана 2" class="product-item__image">
-                  <div class="caption">
-                    <strong class="product-item__label">Иллюзия обмана 2</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <div class="collapse navbar-collapse" id="navbar-top">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="index.html">Главная</a></li>
+            <li><a href="page.html">Фильмы</a></li>
+            <li><a href="index.html#">Сериалы</a></li>
+            <li><a href="index.html#">Контакты</a></li>
+          </ul>
 
-        <section class="top-week">
-          <h2>ТОП за неделю</h2>
-          <div class="row">
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1401663.jpg" alt="Марсианин" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Марсианин</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1453229.jpg" alt="Люди Икс" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Люди Икс</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1263242.jpg" alt="Люси" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Люси</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1266931.jpg" alt="Стражи галактики" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Стражи галактики</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1289488.jpg" alt="Занесло" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Занесло</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1341151.jpg" alt="Из машины" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Из машины</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1381061.jpg" alt="Выхода нет" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Выхода нет</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1393263.jpg" alt="Человек муравей" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Человек муравей</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1415999.jpg" alt="Дочь Бога" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Дочь Бога</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1423264.jpg" alt="Месть от кутюр" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Месть от кутюр</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1441076.jpg" alt="5ять" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">5ять</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
-              <div class="thumbnail">
-                <a href="index.html#">
-                  <img src="assets/img/films/1455536.jpg" alt="Иллюзия обмана 2" class="top-week-item__image">
-                  <div class="caption">
-                    <strong class="top-week-item__label">Иллюзия обмана 2</strong>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="film-news">
-          <h2>Новости кино</h2>
-          <div class="film-news-item">
-            <h3><a href="index.html#">Кейт Бекинсейл представила фильм "Другой мир: Войны крови"</a></h3>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="thumbnail">
-                  <img src="assets/img/news/news-1.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-sm-8">
-                <p class="film-news-item__text">Кейт Бекинсейл представила в Мексике свой новый фильм "Другой мир: Войны крови". На красной дорожке актриса позировала фотографам в роскошном красном платье. В фильме речь пойдет о Селене - Воительница-вампир Селена вступает в свой последний и решающий бой между оборотнями и кланом вампиров, который предал ее. В украинских кинотеатрах картину можно увидеть с 1 декабря...</p>
-                <a href="index.html#" class="btn btn-warning">Подробней</a>
-              </div>
-            </div>
-          </div>
-          <div class="film-news-item">
-            <h3><a href="index.html#">Критики Нью-Йорка выбрали лучший фильм 2016 года</a></h3>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="thumbnail">
-                  <img src="assets/img/news/news-2.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-sm-8">
-                <p class="film-news-item__text">Им стал мюзикл "Ла-Ла Ленд", который снял режиссер Дэмьен Шазелл. Лучшим актером года был признан Кейси Аффлек, сыгравший в картине "Манчестер у моря", а в аналогичной женской категории победа была присуждена Изабель Юппер снимавшаяся в фильме "Она". Лучшей актрисой второго плана названа Мишель Уильямс, сыгравшая в драме "Некоторые женщины", а лучшим актером второго плана - Махершалалхашбаз Али за роль в картине "Лунный свет"...</p>
-                <a href="index.html#" class="btn btn-warning">Подробней</a>
-              </div>
-            </div>
-          </div>
-          <div class="film-news-item">
-            <h3><a href="index.html#">Крис Прэтт и Дженнифер Лоуренс представили "Пассажиров" в Париже</a></h3>
-            <div class="row">
-              <div class="col-sm-4">
-                <div class="thumbnail">
-                  <img src="assets/img/news/news-3.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-sm-8">
-                <p class="film-news-item__text">Хотя до премьеры "Пассажиров" остается еще почти месяц, промо-тур в поддержку нового фильма уже начался: Крис Прэтт и Дженнифер Лоуренс, исполнившие в фильме главные роли, представили "Пассажиров" в рамках фотоколла в Париже. В кинотеатрах "Пассажиры" появятся под занавес 2016 года – 22 декабря...</p>
-                <a href="index.html#" class="btn btn-warning">Подробней</a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-      </main>
-
-      <aside class="left-sidebar col-lg-3 col-lg-pull-9 col-md-4 col-md-pull-8">
-
-        <div class="vertical-slider panel panel-info hidden-sm hidden-xs">
-          <div id="vertical-carousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#vertical-carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#vertical-carousel" data-slide-to="1"></li>
-              <li data-target="#vertical-carousel" data-slide-to="2"></li>
-            </ol>
-
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="assets/img/films/1263242.jpg" alt="img">
-              </div>
-              <div class="item">
-                <img src="assets/img/films/1289488.jpg" alt="img">
-              </div>
-              <div class="item">
-                <img src="assets/img/films/1401663.jpg" alt="img">
-              </div>
-            </div>
-
-            <a class="left carousel-control" href="index.html#vertical-carousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="index.html#vertical-carousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html#">Новинки</a></li>
+            <li><a href="index.html#">Рейтинг</a></li>
+            <li><a href="index.html#">Раздачи</a></li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </div>
 
-        <div class="panel-search panel panel-info hidden-sm hidden-xs">
-          <div class="panel-heading">
-            <h3 class="panel-title">Поиск</h3>
-          </div>
-          <div class="panel-body">
+  <div class="wrap-bg row">
+    <div class="wrap-bg-container">
+      <div class="img-header-top" style="background-image: url(assets/img/header-bg.jpg);">
+      </div>
+      <div class="img-header" style="background-image: url(assets/img/header-bg.jpg);"></div>
+      <div class="img-header-bottom" style="background-image: url(assets/img/header-bg.jpg);">
+      </div>
+      <div class="img-header-bottom-mask">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="main-body">
+    <div class="container">
+      <div class="row">
+
+        <main class="main col-lg-9 col-lg-push-3 col-md-8 col-md-push-4">
+
+          <div class="panel-search panel panel-info hidden-lg hidden-md">
             <form action="http://courses.fomenko.top/m2t1/test">
-              <div class="input-group input-group-lg">
-                <input type="search" class="form-control" placeholder="Поиск по сайту">
+              <div class="input-group">
+                <input type="search" class="form-control input-lg" placeholder="Поиск по сайту">
                 <div class="input-group-btn">
-                  <button class="btn btn-default" type="submit">
+                  <button class="btn btn-default btn-lg" type="submit">
                     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                   </button>
                 </div>
               </div>
             </form>
           </div>
-        </div>
 
-        <div class="user-login panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">Вход</h3>
-          </div>
-          <div class="panel-body">
-            <form action="http://courses.fomenko.top/m2t1/test2">
-              <div class="form-group">
-                <input type="text" class="form-control input-lg" placeholder="Логин">
+          <section class="product">
+            <h1>Новые фильмы</h1>
+            <div class="row">
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1266931.jpg" alt="Стражи галактики" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Стражи галактики</strong>
+                    </div>
+                  </a>
+                </div>
               </div>
-              <div class="form-group">
-                <input type="password" class="form-control input-lg" placeholder="Пароль">
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1289488.jpg" alt="Занесло" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Занесло</strong>
+                    </div>
+                  </a>
+                </div>
               </div>
-              <button class="btn btn-default btn-lg btn-block" type="submit">Вход</button>
-            </form>
-          </div>
-        </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1341151.jpg" alt="Из машины" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Из машины</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1381061.jpg" alt="Выхода нет" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Выхода нет</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1393263.jpg" alt="Человек муравей" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Человек муравей</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1263242.jpg" alt="Люси" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Люси</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1401663.jpg" alt="Марсианин" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Марсианин</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1415999.jpg" alt="Дочь Бога" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Дочь Бога</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1423264.jpg" alt="Месть от кутюр" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Месть от кутюр</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1441076.jpg" alt="5ять" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">5ять</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1453229.jpg" alt="Люди Икс" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Люди Икс</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="product-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1455536.jpg" alt="Иллюзия обмана 2" class="product-item__image">
+                    <div class="caption">
+                      <strong class="product-item__label">Иллюзия обмана 2</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <div class="site-news panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">Новости сайта</h3>
-          </div>
-          <div class="panel-body">
-            <div class="site-news-item">
-              <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
-              <div class="site-news-item__title"><a href="index.html#">Мы запустили новый сервис - КиноМонстр</a></div>
-              <div class="site-news-item__date">5 декабря 2016</div>
+          <section class="top-week">
+            <h2>ТОП за неделю</h2>
+            <div class="row">
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1401663.jpg" alt="Марсианин" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Марсианин</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1453229.jpg" alt="Люди Икс" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Люди Икс</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1263242.jpg" alt="Люси" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Люси</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1266931.jpg" alt="Стражи галактики" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Стражи галактики</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1289488.jpg" alt="Занесло" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Занесло</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1341151.jpg" alt="Из машины" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Из машины</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1381061.jpg" alt="Выхода нет" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Выхода нет</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1393263.jpg" alt="Человек муравей" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Человек муравей</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1415999.jpg" alt="Дочь Бога" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Дочь Бога</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1423264.jpg" alt="Месть от кутюр" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Месть от кутюр</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1441076.jpg" alt="5ять" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">5ять</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="top-week-item col-lg-3 col-sm-4 col-xs-6">
+                <div class="thumbnail">
+                  <a href="index.html#">
+                    <img src="assets/img/films/1455536.jpg" alt="Иллюзия обмана 2" class="top-week-item__image">
+                    <div class="caption">
+                      <strong class="top-week-item__label">Иллюзия обмана 2</strong>
+                    </div>
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="site-news-item">
-              <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
-              <div class="site-news-item__title"><a href="index.html#">На сайте добавлен новый функционал</a></div>
-              <div class="site-news-item__date">6 декабря 2016</div>  
-            </div>
-            <div class="site-news-item">
-              <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
-              <div class="site-news-item__title"><a href="index.html#">Скорость скачивания фильмов увеличена</a></div>
-              <div class="site-news-item__date">7 декабря 2016</div>  
-            </div>
-            <div class="site-news-item">
-              <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
-              <div class="site-news-item__title"><a href="index.html#">Оптимизирована производительность сервера</a></div>
-              <div class="site-news-item__date">8 декабря 2016</div>  
-            </div>
-            <div class="site-news-item">
-              <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
-              <div class="site-news-item__title"><a href="index.html#">Количество пользователей перевалила за 10 000</a></div>
-              <div class="site-news-item__date">9 декабря 2016</div>  
-            </div>
-          </div>
-        </div>
+          </section>
 
-        <div class="top-films panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">Рейтинг фильмов</h3>
-          </div>
-          <div class="panel-body">
-            <ul class="list-group">
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">8.9</span><a href="index.html#">Марсианин</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">8.8</span><a href="index.html#">Иллюзия обмана 2</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">8.5</span><a href="index.html#">Из машины</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">8.2</span><a href="index.html#">Люси</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">8.0</span><a href="index.html#">Выхода нет</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">7.9</span><a href="index.html#">Стражи галактики</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">7.7</span><a href="index.html#">Человек муравей</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">7.5</span><a href="index.html#">Месть от кутюр</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">7.4</span><a href="index.html#">Люди Икс</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">7.3</span><a href="index.html#">Занесло</a>
-              </li>
-              <li class="top-films-item list-group-item list-group-warning">
-                <span class="badge">7.2</span><a href="index.html#">Дочь Бога</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+          <section class="film-news">
+            <h2>Новости кино</h2>
+            <div class="film-news-item">
+              <h3><a href="index.html#">Кейт Бекинсейл представила фильм "Другой мир: Войны крови"</a></h3>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="thumbnail">
+                    <img src="assets/img/news/news-1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <p class="film-news-item__text">Кейт Бекинсейл представила в Мексике свой новый фильм "Другой мир: Войны крови". На красной дорожке актриса позировала фотографам в роскошном красном платье. В фильме речь пойдет о Селене - Воительница-вампир Селена вступает в свой последний и решающий бой между оборотнями и кланом вампиров, который предал ее. В украинских кинотеатрах картину можно увидеть с 1 декабря...</p>
+                  <a href="index.html#" class="btn btn-warning">Подробней</a>
+                </div>
+              </div>
+            </div>
+            <div class="film-news-item">
+              <h3><a href="index.html#">Критики Нью-Йорка выбрали лучший фильм 2016 года</a></h3>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="thumbnail">
+                    <img src="assets/img/news/news-2.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <p class="film-news-item__text">Им стал мюзикл "Ла-Ла Ленд", который снял режиссер Дэмьен Шазелл. Лучшим актером года был признан Кейси Аффлек, сыгравший в картине "Манчестер у моря", а в аналогичной женской категории победа была присуждена Изабель Юппер снимавшаяся в фильме "Она". Лучшей актрисой второго плана названа Мишель Уильямс, сыгравшая в драме "Некоторые женщины", а лучшим актером второго плана - Махершалалхашбаз Али за роль в картине "Лунный свет"...</p>
+                  <a href="index.html#" class="btn btn-warning">Подробней</a>
+                </div>
+              </div>
+            </div>
+            <div class="film-news-item">
+              <h3><a href="index.html#">Крис Прэтт и Дженнифер Лоуренс представили "Пассажиров" в Париже</a></h3>
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="thumbnail">
+                    <img src="assets/img/news/news-3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <p class="film-news-item__text">Хотя до премьеры "Пассажиров" остается еще почти месяц, промо-тур в поддержку нового фильма уже начался: Крис Прэтт и Дженнифер Лоуренс, исполнившие в фильме главные роли, представили "Пассажиров" в рамках фотоколла в Париже. В кинотеатрах "Пассажиры" появятся под занавес 2016 года – 22 декабря...</p>
+                  <a href="index.html#" class="btn btn-warning">Подробней</a>
+                </div>
+              </div>
+            </div>
+          </section>
 
-      </aside>
+        </main>
+
+        <aside class="left-sidebar col-lg-3 col-lg-pull-9 col-md-4 col-md-pull-8">
+
+          <div class="vertical-slider panel panel-info hidden-sm hidden-xs">
+            <div id="vertical-carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#vertical-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#vertical-carousel" data-slide-to="1"></li>
+                <li data-target="#vertical-carousel" data-slide-to="2"></li>
+              </ol>
+
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="assets/img/films/1263242.jpg" alt="img">
+                </div>
+                <div class="item">
+                  <img src="assets/img/films/1289488.jpg" alt="img">
+                </div>
+                <div class="item">
+                  <img src="assets/img/films/1401663.jpg" alt="img">
+                </div>
+              </div>
+
+              <a class="left carousel-control" href="index.html#vertical-carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="index.html#vertical-carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="panel-search panel panel-info hidden-sm hidden-xs">
+            <div class="panel-heading">
+              <h3 class="panel-title">Поиск</h3>
+            </div>
+            <div class="panel-body">
+              <form action="http://courses.fomenko.top/m2t1/test">
+                <div class="input-group input-group-lg">
+                  <input type="search" class="form-control" placeholder="Поиск по сайту">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="user-login panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Вход</h3>
+            </div>
+            <div class="panel-body">
+              <form action="http://courses.fomenko.top/m2t1/test2">
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="Логин">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control input-lg" placeholder="Пароль">
+                </div>
+                <button class="btn btn-default btn-lg btn-block" type="submit">Вход</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="site-news panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Новости сайта</h3>
+            </div>
+            <div class="panel-body">
+              <div class="site-news-item">
+                <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
+                <div class="site-news-item__title"><a href="index.html#">Мы запустили новый сервис - КиноМонстр</a></div>
+                <div class="site-news-item__date">5 декабря 2016</div>
+              </div>
+              <div class="site-news-item">
+                <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
+                <div class="site-news-item__title"><a href="index.html#">На сайте добавлен новый функционал</a></div>
+                <div class="site-news-item__date">6 декабря 2016</div>
+              </div>
+              <div class="site-news-item">
+                <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
+                <div class="site-news-item__title"><a href="index.html#">Скорость скачивания фильмов увеличена</a></div>
+                <div class="site-news-item__date">7 декабря 2016</div>
+              </div>
+              <div class="site-news-item">
+                <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
+                <div class="site-news-item__title"><a href="index.html#">Оптимизирована производительность сервера</a></div>
+                <div class="site-news-item__date">8 декабря 2016</div>
+              </div>
+              <div class="site-news-item">
+                <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png" alt=""></div>
+                <div class="site-news-item__title"><a href="index.html#">Количество пользователей перевалила за 10 000</a></div>
+                <div class="site-news-item__date">9 декабря 2016</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="top-films panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Рейтинг фильмов</h3>
+            </div>
+            <div class="panel-body">
+              <ul class="list-group">
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">8.9</span><a href="index.html#">Марсианин</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">8.8</span><a href="index.html#">Иллюзия обмана 2</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">8.5</span><a href="index.html#">Из машины</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">8.2</span><a href="index.html#">Люси</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">8.0</span><a href="index.html#">Выхода нет</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">7.9</span><a href="index.html#">Стражи галактики</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">7.7</span><a href="index.html#">Человек муравей</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">7.5</span><a href="index.html#">Месть от кутюр</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">7.4</span><a href="index.html#">Люди Икс</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">7.3</span><a href="index.html#">Занесло</a>
+                </li>
+                <li class="top-films-item list-group-item list-group-warning">
+                  <span class="badge">7.2</span><a href="index.html#">Дочь Бога</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </aside>
+      </div>
     </div>
   </div>
+
 
   <footer class="footer">
     <div class="container-fluid">
@@ -579,6 +652,7 @@
 
     </div>
   </footer>
+</div>
 
   <script src="libs/jquery/dist/jquery.min.js"></script>
   <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
