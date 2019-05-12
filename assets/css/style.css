@@ -459,7 +459,10 @@ hr.line {
     color: #ffffff;
     height: auto;
     text-align: left;
+    margin-bottom: 10px;
     min-height: 50px;
+    max-height: 60px;
+    overflow: hidden;
     opacity: 0.5;
     font-size: 13px;
     filter: alpha(opacity=50);
