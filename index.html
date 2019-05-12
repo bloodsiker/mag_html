@@ -1262,7 +1262,7 @@
             if ($(e.target).closest(".btn-search").length === 1 || $(e.target).closest("#mod-search-searchword").length === 1) {
                 e.stopPropagation();
             } else {
-                $('.head-search').toggleClass('btn-open');
+                $('.head-search').removeClass('btn-open');
             }
         });
     });
