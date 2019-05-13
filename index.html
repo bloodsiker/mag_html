@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row">
                 <!-- LOGO -->
-                <div class="col-xs-12 col-sm-4 logo">
+                <div class="col-xs-12 col-sm-3 logo">
                     <div class="logo-image">
                         <a href="/" title="">
                             <img class="logo-img" src="assets/img/logo.png" alt="JoomlArt Demo Site">
@@ -57,11 +57,11 @@
                 </div>
                 <!-- //LOGO -->
 
-                <div class="head-right col-xs-12 col-sm-8">
+                <div class="head-right col-xs-12 col-sm-9">
                     <!-- HEAD CART -->
                     <div class="head-cart">
                         <button aria-expanded="false" data-toggle="dropdown" class="btn btn-cart dropdown-toggle"
-                                type="button" id="head-cart-dropdown">
+                                type="button" id="show-head-cart">
                             <i class="fa fa-shopping-cart"></i>
                             <span class="total-product">0</span>
                         </button>
@@ -140,10 +140,19 @@
                 <div class="row equal-height equal-height-child">
                     <div class="game-item col-lg-2 col-sm-4 col-xs-6">
                         <div class="spacer">
-                            <div class="product-media-container">
-                                <a title="Spartacus Legends" href="#">
-                                    <img src="assets/img/games/path_of_exile_logo.jpg" alt="spartacus_legends" class="browseProductImage">
-                                </a>
+                            <img src="assets/img/games/path_of_exile_logo.jpg" alt="spartacus_legends" class="bg">
+
+                            <div class="game">
+                                <div class="text">
+                                    <a href="buy_cheap_fifa_19_fut_coins/">
+                                        <img src="assets/img/games/path_of_exile_logo.jpg" alt="FIFA 19 logo">
+                                    </a>
+                                    <h2>PATH OF EXILE</h2>
+                                    <p>Path of Exile currency and item selection with 10 minutes delivery. League selection is available!</p>
+                                </div>
+                            </div>
+                            <div class="btn center">
+                                <a href="/">See all</a>
                             </div>
                         </div>
                     </div>
@@ -400,13 +409,24 @@
                     </div>
                 </div>
 
+
+
                 <div class="row equal-height equal-height-child">
                     <div class="game-item col-lg-2 col-sm-4 col-xs-6">
                         <div class="spacer">
-                            <div class="product-media-container">
-                                <a title="Spartacus Legends" href="#">
-                                    <img src="assets/img/games/diablo_3_ros_item_and_service_shop_logo.jpg" alt="spartacus_legends" class="browseProductImage">
-                                </a>
+                            <img src="assets/img/games/diablo_3_ros_item_and_service_shop_logo.jpg" alt="spartacus_legends" class="bg">
+
+                            <div class="game">
+                                <div class="text">
+                                    <a href="buy_cheap_fifa_19_fut_coins/">
+                                        <img src="assets/img/games/diablo_3_ros_item_and_service_shop_logo.jpg" alt="FIFA 19 logo">
+                                    </a>
+                                    <h2>DIABLO 3 ROS</h2>
+                                    <p>Diverse classes - just like in Diablo 2 The Barbarian is the embodiment of brute strength capable</p>
+                                </div>
+                            </div>
+                            <div class="btn center">
+                                <a href="/">See all</a>
                             </div>
                         </div>
                     </div>
@@ -1246,6 +1266,47 @@
     </footer>
 </div>
 
+<div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                    <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        Level 1: .col-sm-9
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-6">
+                                Level 2: .col-xs-8 .col-sm-6
+                            </div>
+                            <div class="col-xs-4 col-sm-6">
+                                Level 2: .col-xs-4 .col-sm-6
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <script src="libs/jquery/dist/jquery.min.js"></script>
 <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 
@@ -1265,6 +1326,10 @@
                 $('.head-search').removeClass('btn-open');
             }
         });
+
+        $('#show-head-cart').on('click', function () {
+            $('#modal-cart').modal('show');
+        })
     });
 </script>
 </body>
