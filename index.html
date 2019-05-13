@@ -1297,13 +1297,13 @@
                                         <div class="addtocart-bar">
                                             <div class="quantity-wrap">
                                                 <span class="quantity-box">
-                                                    <input type="text" class="quantity-input js-recalculate" name="quantity[]"
+                                                    <input type="text" class="quantity-input js-recalculate" name="quantity"
                                                            data-errstr="You can buy this product only in multiples of %s pieces!" value="1" init="1"
                                                            step="1">
                                                 </span>
                                                 <span class="quantity-controls js-recalculate">
-                                                    <input type="button" class="quantity-controls quantity-plus">
-                                                    <input type="button" class="quantity-controls quantity-minus">
+                                                    <input type="button" onclick="quantity.value=parseInt(quantity.value)+1" class="quantity-controls quantity-plus">
+                                                    <input type="button" onclick="quantity.value=quantity.value <= 1 ? 1 :parseInt(quantity.value)-1" class="quantity-controls quantity-minus">
                                                 </span>
                                             </div>
                                             <span class="addtocart-button">
