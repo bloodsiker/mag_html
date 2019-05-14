@@ -235,6 +235,25 @@ hr.line {
     width: 100%;
     margin: 0;
 }
+.wrap-bg-title {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.wrap-bg-container h1 {
+    font-size: 44px;
+    font-weight: bold;
+    text-shadow: 0 0 5px black, 0 0 20px black;
+}
+.wrap-bg-container h2 {
+    margin: auto;
+    max-width: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 0 5px black, 0 0 20px black;
+}
 .img-header-top {
     background-size: cover;
     background-position: top center;
