@@ -25,6 +25,10 @@ hr.line {
 .top-line {
     border-top: 1px solid rgba(255,255,255,0.1);
 }
+.item-padding {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
 
 .wrapper {
     background: #1b2838;
@@ -297,6 +301,9 @@ hr.line {
 
 
 /* Main */
+.games-items {
+    margin-bottom: 30px;
+}
 .games-items h4 {
     background: transparent;
     color: inherit;
@@ -429,11 +436,6 @@ hr.line {
 }
 .product-item:hover .spacer {
     box-shadow: 0 0 4px #4d729f;
-}
-.product-item .spacer {
-    -webkit-transition: background-color 0.25s ease;
-    -o-transition: background-color 0.25s ease;
-    transition: background-color 0.25s ease;
 }
 .product-item .spacer {
     height: 410px;
@@ -682,6 +684,55 @@ span.PricesalesPrice {
     width: 43px;
     height: 37px;
     background-image: url(../img/icons/ico-cart-white.png);
+    background-color: #182027;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Discount pack */
+.discount-pack {
+
+}
+.discount-pack h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.discount-pack .product-item .spacer {
+    height: 340px;
+}
+.discount-pack .product-item .discount-logo {
+    height: 340px;
+    display: table;
+}
+.discount-pack .product-item .discount-logo a {
+    display: table-cell;
+    vertical-align: middle;
+}
+.discount-pack .product-item .discount-logo img {
+    max-width: 100%;
+}
+.discount-price {
+    list-style: none;
+    padding: 0;
+}
+.discount-price li {
+   display: inline-block;
+    padding: 2px 15px;
+}
+.discount-price .PricesalesPrice {
+    font-size: 20px;
+}
+.discount-price .PricebasePrice {
+    font-size: 15px;
+}
+.btn-cart {
+    border-radius: 3px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+    padding: 10px 50px;
+    box-shadow: none;
+    color: #ffffff;
     background-color: #182027;
     background-position: center center;
     background-repeat: no-repeat;
