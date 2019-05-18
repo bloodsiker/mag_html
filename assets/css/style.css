@@ -698,7 +698,9 @@ span.PricesalesPrice {
     bottom: 15px;
     right: 15px;
 }
-.spacer .addtocart-bar button.addtocart-button {
+.spacer .addtocart-bar button.addtocart-button,
+.default-modal .modal-body button.addtocart-button
+{
     border-radius: 3px;
     text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
     box-shadow: none;
@@ -833,6 +835,47 @@ span.PricesalesPrice {
     height: 38px !important;
     right: 11px !important;
 }
+
+
+
+
+/* Modal */
+.default-modal .modal-content {
+    background-color: #272e33;
+    border-radius: 0;
+    box-shadow: 0 5px 15px rgba(165, 163, 163, 0.5);
+}
+.default-modal .modal-header {
+    padding: 10px 10px 10px 16px;
+}
+.default-modal .modal-header .modal-title {
+    font-size: 14px;
+}
+.default-modal .modal-header .close {
+    color: #fff;
+    opacity: 1;
+}
+.default-modal .modal-body {
+    color: #fff;
+    opacity: 1;
+}
+.default-modal .modal-body .modal-line {
+    margin-bottom: 2px;
+}
+.default-modal .modal-body .name-server {
+    background-color: #182027;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 8px;
+}
+.default-modal .modal-body .price-server {
+    background-color: #182027;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 8px;
+}
+.default-modal .modal-footer {
+    padding: 10px 10px 10px 16px;
+}
+
 
 
 
