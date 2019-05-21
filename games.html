@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Games</title>
+    <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="libs/select2/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon"/>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="wrapper">
+    <div class="wrap-topbar">
+        <div class="container">
+            <div class="row">
+                <div class="topbar-left col-xs-8 col-sm-6">
+
+
+                    <div class="custom">
+                        <p>Welcome to the GetFun shop</p></div>
+
+                </div>
+                <div class="topbar-right pull-right col-xs-4 col-sm-6">
+
+                    <div class="languageswitcherload">
+                        <div class="mod-languages">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header id="header" class="header ">
+        <div class="container">
+            <div class="row">
+                <!-- LOGO -->
+                <div class="col-xs-12 col-sm-3 logo">
+                    <div class="logo-image">
+                        <a href="/" title="">
+                            <img class="logo-img" src="assets/img/logo.png" alt="JoomlArt Demo Site">
+                            <span></span>
+                        </a>
+                        <small class="site-slogan"></small>
+                    </div>
+                </div>
+                <!-- //LOGO -->
+
+                <div class="head-right col-xs-12 col-sm-9">
+                    <!-- HEAD CART -->
+                    <div class="head-cart">
+                        <button aria-expanded="false" data-toggle="dropdown" class="btn btn-cart dropdown-toggle"
+                                type="button" id="show-head-cart">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span class="total-product">0</span>
+                        </button>
+                    </div>
+                    <!-- //HEAD CART -->
+
+                    <!-- HEAD SEARCH -->
+                    <div class="head-search">
+                        <button class="btn btn-search"><i class="fa fa-search"></i></button>
+                        <div class="search">
+                            <form action="" method="post" class="form-inline form-search" onsubmit="return false;">
+                                <label for="mod-search-searchword" class="element-invisible">Search ...</label> <input
+                                    name="searchword" id="mod-search-searchword" maxlength="200"
+                                    class="form-control search-query" type="search" placeholder="Search ..."> <input
+                                    type="hidden" name="task" value="search">
+                                <input type="hidden" name="option" value="com_search">
+                                <input type="hidden" name="Itemid" value="101">
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="header-menu">
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar-top" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-top">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/">Games</a></li>
+                        <li><a href="/">Items</a></li>
+                        <li><a href="/">Sell to us</a></li>
+                        <li><a href="/">Help center</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right hidden">
+                        <li><a href="/">Test</a></li>
+                        <li><a href="/">Test</a></li>
+                        <li><a href="/">Test</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--<div class="wrap-bg row">-->
+        <!--<div class="wrap-bg-container">-->
+            <!--<div class="wrap-bg-title">-->
+                <!--<h1>Path of Exile</h1>-->
+                <!--<h2>Path of Exile is an action-RPG developed by Grinding Gear Games, and is considered by many to be the spiritual successor to Diablo II. With regular content updates, a fair business model, deep and engaging gameplay, PoE has won over many old-school ARPG-fans</h2>-->
+            <!--</div>-->
+            <!--<div class="img-header-top" style="background-image: url(assets/img/header-bg.jpg);">-->
+            <!--</div>-->
+            <!--<div class="img-header" style="background-image: url(assets/img/header-bg.jpg);"></div>-->
+            <!--<div class="img-header-bottom" style="background-image: url(assets/img/header-bg.jpg);">-->
+            <!--</div>-->
+            <!--<div class="img-header-bottom-mask">-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+    <div class="main-body">
+        <div class="container">
+
+            <div class="games-items top-line">
+                <div class="row equal-height equal-height-child">
+                    <div class="game-item col-lg-2 col-sm-4 col-xs-6">
+                        <div class="spacer">
+                            <img src="assets/img/games/fifa_19_coins_and_player_shop_logo.jpg" alt="spartacus_legends" class="bg">
+
+                            <div class="game">
+                                <div class="text">
+                                    <a href="/">
+                                        <img src="assets/img/games/fifa_19_coins_and_player_shop_logo.jpg" alt="FIFA 19 logo">
+                                    </a>
+                                    <h2>PFIFA 19</h2>
+                                    <p>Buy FIFA 19 coins with safe and fast delivery. Comfort Trade and Player Auction methods are available!</p>
+                                </div>
+                            </div>
+                            <div class="btn center">
+                                <a href="/">See all</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="game-item col-lg-2 col-sm-4 col-xs-6">
+                        <div class="spacer">
+                            <img src="assets/img/games/path_of_exile_logo.jpg" alt="spartacus_legends" class="bg">
+
+                            <div class="game">
+                                <div class="text">
+                                    <a href="buy_cheap_fifa_19_fut_coins/">
+                                        <img src="assets/img/games/path_of_exile_logo.jpg" alt="FIFA 19 logo">
+                                    </a>
+                                    <h2>PATH OF EXILE</h2>
+                                    <p>Path of Exile currency and item selection with 10 minutes delivery. League selection is available!</p>
+                                </div>
+                            </div>
+                            <div class="btn center">
+                                <a href="/">See all</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="game-item col-lg-2 col-sm-4 col-xs-6">
+                        <div class="spacer">
+                            <img src="assets/img/games/diablo_3_ros_item_and_service_shop_logo.jpg" alt="spartacus_legends" class="bg">
+
+                            <div class="game">
+                                <div class="text">
+                                    <a href="buy_cheap_fifa_19_fut_coins/">
+                                        <img src="assets/img/games/diablo_3_ros_item_and_service_shop_logo.jpg" alt="FIFA 19 logo">
+                                    </a>
+                                    <h2>DIABLO 3 ROS</h2>
+                                    <p>Diverse classes - just like in Diablo 2 The Barbarian is the embodiment of brute strength capable</p>
+                                </div>
+                            </div>
+                            <div class="btn center">
+                                <a href="/">See all</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="game-item col-lg-2 col-sm-4 col-xs-6">
+                        <div class="spacer">
+                            <img src="assets/img/games/counter_strike_item_and_currency_shop_logo.jpg" alt="spartacus_legends" class="bg">
+
+                            <div class="game">
+                                <div class="text">
+                                    <a href="/">
+                                        <img src="assets/img/games/counter_strike_item_and_currency_shop_logo.jpg" alt="FIFA 19 logo">
+                                    </a>
+                                    <h2>COUNTER STRIKE</h2>
+                                    <p>Huge Counter Strike Key and Skin selection awaits. CSGO Betting Bundle is also available.</p>
+                                </div>
+                            </div>
+                            <div class="btn center">
+                                <a href="/">See all</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="game-item col-lg-2 col-sm-4 col-xs-6">
+                        <div class="spacer">
+                            <img src="assets/img/games/final_fantasy_xiv_gold_shop_logo.jpg" alt="spartacus_legends" class="bg">
+
+                            <div class="game">
+                                <div class="text">
+                                    <a href="/">
+                                        <img src="assets/img/games/final_fantasy_xiv_gold_shop_logo.jpg" alt="FIFA 19 logo">
+                                    </a>
+                                    <h2>FINAL FANTASY XIV</h2>
+                                    <p>Final Fantasy XIV Gil delivery right into your mailbox.</p>
+                                </div>
+                            </div>
+                            <div class="btn center">
+                                <a href="/">See all</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="game-item col-lg-2 col-sm-4 col-xs-6">
+                        <div class="spacer">
+                            <img src="assets/img/games/guild_wars_item_and_currency_shop_logo.jpg" alt="spartacus_legends" class="bg">
+
+                            <div class="game">
+                                <div class="text">
+                                    <a href="/">
+                                        <img src="assets/img/games/guild_wars_item_and_currency_shop_logo.jpg" alt="FIFA 19 logo">
+                                    </a>
+                                    <h2>GUILD WARS</h2>
+                                    <p>Guild Wars Lockpick and Ecto with immediate delivery.</p>
+                                </div>
+                            </div>
+                            <div class="btn center">
+                                <a href="/">See all</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="game-item col-lg-2 col-sm-4 col-xs-6">
+                        <div class="spacer">
+                            <img src="assets/img/games/league_of_legends_service_shop_logo.jpg" alt="spartacus_legends" class="bg">
+
+                            <div class="game">
+                                <div class="text">
+                                    <a href="/">
+                                        <img src="assets/img/games/league_of_legends_service_shop_logo.jpg" alt="FIFA 19 logo">
+                                    </a>
+                                    <h2>LEAGUE OF LEGENDS</h2>
+                                    <p>League of Legends Boosting and Division services with guaranteed completion.</p>
+                                </div>
+                            </div>
+                            <div class="btn center">
+                                <a href="/">See all</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="footer-top">
+
+                            <div class="footer-first col-md-3 col-xs-6">
+                                <h4>Lorem ipsum dolor sit.</h4>
+                                <ul>
+                                    <li><a href="index.html#">Lorem ipsum dolor.</a></li>
+                                    <li><a href="index.html#">Delectus, labore, incidunt.</a></li>
+                                    <li><a href="index.html#">Eos neque, eius.</a></li>
+                                    <li><a href="index.html#">Minus, omnis vel.</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-second col-md-3 col-xs-6">
+                                <h4>Voluptatem, commodi, at.</h4>
+                                <ul>
+                                    <li><a href="index.html#">Lorem ipsum dolor.</a></li>
+                                    <li><a href="index.html#">Delectus, labore, incidunt.</a></li>
+                                    <li><a href="index.html#">Eos neque, eius.</a></li>
+                                    <li><a href="index.html#">Minus, omnis vel.</a></li>
+                                    <li><a href="index.html#">Aspernatur, fugiat, possimus!</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-third col-md-3 col-xs-6">
+                                <h4>Sed, ducimus perspiciatis.</h4>
+                                <ul>
+                                    <li><a href="index.html#">Lorem ipsum dolor.</a></li>
+                                    <li><a href="index.html#">Delectus, labore, incidunt.</a></li>
+                                    <li><a href="index.html#">Eos neque, eius.</a></li>
+                                    <li><a href="index.html#">Minus, omnis vel.</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-fourth col-md-3 col-xs-6">
+                                <h4>Reiciendis, minima, a?</h4>
+                                <ul>
+                                    <li><a href="index.html#">Lorem ipsum dolor.</a></li>
+                                    <li><a href="index.html#">Delectus, labore, incidunt.</a></li>
+                                    <li><a href="index.html#">Eos neque, eius.</a></li>
+                                    <li><a href="index.html#">Minus, omnis vel.</a></li>
+                                    <li><a href="index.html#">Aspernatur, fugiat, possimus!</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</div>
+
+<div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">.col-md-4</div>
+                    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                    <div class="col-md-2 col-md-offset-4">.col-md-2 .col-md-offset-4</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-9">
+                        Level 1: .col-sm-9
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-6">
+                                Level 2: .col-xs-8 .col-sm-6
+                            </div>
+                            <div class="col-xs-4 col-sm-6">
+                                Level 2: .col-xs-4 .col-sm-6
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade default-modal" id="modal-add-cart" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Price in server/platform</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row modal-line">
+                    <div class="col-md-8">
+                        <div class="name-server">Hardcore Mode</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="price-server">$200.00</div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="addtocart-button"></button>
+                    </div>
+                </div>
+                <div class="row modal-line">
+                    <div class="col-md-8">
+                        <div class="name-server">Synthesis - Hardcore</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="price-server">$3.40</div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="addtocart-button"></button>
+                    </div>
+                </div>
+                <div class="row modal-line">
+                    <div class="col-md-8">
+                        <div class="name-server">Synthesis - Softcore</div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="price-server">$0.40</div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="addtocart-button"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="libs/select2/dist/js/select2.min.js"></script>
+
+
+<script>
+    $(function () {
+        $('.btn-search').click(function () {
+            $('.head-search').toggleClass('btn-open');
+            $('.head-right').toggleClass('btn-open');
+            if ($('.head-search').hasClass('btn-open')) {
+                $('#mod-search-searchword').focus();
+            }
+        });
+        $(document).on('click', function (e) {
+            if ($(e.target).closest(".btn-search").length === 1 || $(e.target).closest("#mod-search-searchword").length === 1) {
+                e.stopPropagation();
+            } else {
+                $('.head-search').removeClass('btn-open');
+            }
+        });
+
+        /* Cart modal */
+        $('#show-head-cart').on('click', function () {
+            $('#modal-cart').modal('show');
+        });
+
+        /* Add to cart modal */
+        $('.add-to-cart').on('click', function () {
+            $('#modal-add-cart').modal('show');
+        });
+
+        /* Select */
+        $(document).ready(function() {
+            $('.item-filter').select2({
+                minimumResultsForSearch: -1
+            });
+        });
+    });
+</script>
+</body>
+</html>
