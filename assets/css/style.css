@@ -375,7 +375,7 @@ hr.line {
     -webkit-box-shadow: 0px 2px 4.8px 0.2px rgba(31,43,51,0.2);
     -moz-box-shadow: 0px 2px 4.8px .2px rgba(31,43,51,0.2);
     box-shadow: 0px 2px 4.8px 0.2px rgba(31,43,51,0.2);
-    margin-bottom: 0;
+    margin-bottom: 25px;
 }
 .game-item .spacer .bg {
     width: 120%;
@@ -837,6 +837,53 @@ span.PricesalesPrice {
 }
 
 
+/* Games page */
+.wrap-inner-bg {
+    min-height: 230px;
+    background: url(../img/bg1.jpg) rgb(247, 248, 250) center repeat-x;
+    transition: all 0.6s ease 0s;
+    margin-top: -27px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: table;
+}
+.wrap-inner-bg:after {
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    display: block;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wrap-inner-holder {
+    z-index: 500;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    padding: 20px 0;
+}
+.wrap-inner-holder h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 12px;
+    text-shadow: 4px 4px 4px black;
+}
+.wrap-inner-holder p {
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 620px;
+    margin: 0 auto 20px;
+    padding: 0 15px;
+    text-shadow: 3px 3px 3px black;
+}
+.game-main-body {
+    padding-top: 40px;
+}
 
 
 /* Modal */
