@@ -1327,7 +1327,7 @@ section {
     margin-right: 0;
 }
 .footer-nav ul li {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .footer-contact {
     border: 1px solid rgba(255,255,255,0.1);
@@ -1358,6 +1358,19 @@ section {
 }
 .footer ul {
     padding: 0 0 15px 20px;
+}
+.footer .payments {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.footer .payments .payment {
+    display: inline-block;
+    width: 45%;
+    margin: 8px 2%;
+}
+.footer .payments .payment img {
+    max-height: 20px;
 }
 .footer .copyright {
     margin-top: 20px;
