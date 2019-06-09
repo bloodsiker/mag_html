@@ -1001,6 +1001,16 @@ span.PricesalesPrice {
     background-color: #182027;
     padding: 5px 0;
 }
+.default-modal .modal-body .cart-item-discount .cart-item-image:first-child {
+    position: relative;
+    margin-right: 25px;
+}
+.default-modal .modal-body .cart-item-discount .cart-item-image:first-child:after {
+    position: absolute;
+    top: 22px;
+    left: 79px;
+    content: "+";
+}
 .default-modal .modal-body .cart-item-image {
     display: table;
     width: 70px;
@@ -1046,7 +1056,7 @@ span.PricesalesPrice {
 .default-modal .modal-body .cart-total-price {
     padding: 5px;
     border: 1px solid #e5e5e5;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .default-modal .modal-body .cart-total-price span {
     text-transform: uppercase;
