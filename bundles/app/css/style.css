@@ -1039,6 +1039,22 @@ span.PricesalesPrice {
     margin-top: 5px;
     font-size: 15px;
 }
+.default-modal .modal-body .cart-item-name > h4 > .label-hot {
+    display: inline-block;
+    background-color: #f6470a;
+    padding: 2px 4px;
+    font-size: 8px;
+    text-transform: uppercase;
+    vertical-align: 5px;
+}
+.default-modal .modal-body .cart-item-name > h4 > .label-discount {
+    display: inline-block;
+    background-color: #f68b00;
+    padding: 2px 4px;
+    font-size: 8px;
+    text-transform: uppercase;
+    vertical-align: 5px;
+}
 .default-modal .modal-body .cart-server {
     padding-top: 15px;
 }
